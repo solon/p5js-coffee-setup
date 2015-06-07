@@ -1,18 +1,21 @@
-p5js-seed
+p5js-coffee-setup
 =========
 
-You can use this project to quickly bootstrap your p5js project and supporting dev environment.
-
-The seed contains a basic p5js application and is pre-configured to install the p5js framework and a bunch of development tools using bower and npm.
-
-
-## Getting Started
-
-To get you started you can simply clone the p5js-seed repository and install the dependencies:
-
+### Based on
 ```
 git clone https://github.com/winkerVSbecks/p5js-seed.git
 cd p5js-seed
+```
+
+p5js seed with coffee script (gulp-coffee)
+
+## Getting Started
+
+To get you started you can simply clone the p5js-coffee-setup repository and install the dependencies:
+
+```
+git clone https://github.com/ASRagab/p5js-coffee-setup
+cd p5js-coffee-setup
 ```
 
 ## Install Dependencies
@@ -37,7 +40,7 @@ After the above command finishes execution you should find that you have two new
 We use [gulp](http://gulpjs.com) as a task-runner for this project. It's been pre-configured with a simple development web server and live-reload. The simplest way to start this server is:
 
 ```
-gulp dev
+gulp default
 ```
 
 Now browse to the app at http://localhost:3000
